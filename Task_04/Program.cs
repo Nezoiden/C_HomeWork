@@ -13,10 +13,7 @@ Console.WriteLine("Введите третье число: ");
 int num3 = Convert.ToInt32(Console.ReadLine());
 if (num1 > num2)
 {
-    if (num1 > num3)
-    {
-        Console.WriteLine($"max = {num1} ");
-    }
+    if (num1 > num3) Console.WriteLine($"max = {num1} ");
     else Console.WriteLine($"max = {num3} ");
 }
 else if (num2 > num3)
