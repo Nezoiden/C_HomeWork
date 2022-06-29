@@ -10,7 +10,6 @@ Console.Write($"{num} -> ");
 bool showComa = false;
 for (int i = 1; i <= num; i++)
 {
-
     float tail = i % 2;
     if (tail == 0)
     {
