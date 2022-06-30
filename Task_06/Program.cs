@@ -9,4 +9,4 @@
 Console.WriteLine("Введите число:");
 int num = Convert.ToInt32(Console.ReadLine());
 if (num % 2 == 0) Console.WriteLine("число чётное");
-else Console.WriteLine("чило не является чётным");
+else Console.WriteLine("чиcло не является чётным");
