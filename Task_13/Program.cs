@@ -9,7 +9,7 @@
 
 Console.Write("Введите число: ");
 int num = Convert.ToInt32(Console.ReadLine());
-
+num = Math.Abs(-num);
 if (num < 100) Console.WriteLine($"У числа {num} третьей цифры нет");
 else
 {
