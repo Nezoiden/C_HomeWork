@@ -10,5 +10,7 @@ int n = int.Parse(Console.ReadLine());
 // int n = Convert.ToInt32(Console.ReadLine());
 for (int i = 1; i <= n; i++)
 {
-    Console.WriteLine($"|куб числа {i,3} | равен |{i*i*i,6}|");
+    // Console.WriteLine($"|куб числа {i,3} | равен |{i*i*i,6}|");
+
+    Console.WriteLine($"|куб числа {i,3} | равен |{Math.Pow(i,3),6}|");
 }
