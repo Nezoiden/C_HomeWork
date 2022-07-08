@@ -12,7 +12,7 @@
 //     array[i] = rand.Next(-1000, 1000);
 //     Console.Write(array[i] + ",");
 // }
-// Console.Write("]");
+// Console.Write("\b\b]");
 
 
 Console.WriteLine("Введите длинну массива: ");
