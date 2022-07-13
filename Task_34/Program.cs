@@ -46,6 +46,6 @@ void PrintArray(int[] array)
 int[] array = FillArray(sizeArr);
 PrintArray(array);
  int evenNumber = FindEvenNumbers(array);
- Console.WriteLine($" колличество положительных чисел = {evenNumber}");
+ Console.WriteLine($" колличество чётных чисел = {evenNumber}");
 
 
